@@ -10,7 +10,9 @@
     <button data-person="Batman">Batman </button>
     <button data-person="Colossus X-men">Colossus</button>
     <button data-person="Gambit X-men">Gambit</button>
-    
+    <button data-person="Groot">Groot</button>
+    <button data-person="The Punisher Marvel">The Punisher</button>
+    <button data-person="Rick Grimes">Rick Grimes</button>
 
     <div id="gifsAppearHere"> 
     </div>
@@ -20,7 +22,7 @@
 
 $('button').on('click', function(){
     $('#gifsAppearHere').empty();
-    $(this).addClass('active');
+    //$(this).addClass('active');
 
     var p = $(this).data('person');  
 
